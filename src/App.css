@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+nav {
+  background-color: #333;
+  padding: 1rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.section {
+  padding: 2rem;
+  background-color: white;
+  margin: 1rem;
+  border-radius: 10px;
+}
+
+#taxonomy table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#taxonomy th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#team .team-grid {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+#team .team-member {
+  text-align: center;
+  margin: 1rem;
+}
+
+#team .team-member img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
