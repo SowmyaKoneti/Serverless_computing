@@ -19,7 +19,7 @@ function NavBar() {
 function Home() {
   return (
     <section id="home" className="section">
-      <h1>Security for Serverless Computing</h1>
+      <h1 className="main-title">Security for Serverless Computing</h1> {/* Main project name */}
       <p>This survey focuses on unique security challenges in serverless computing architectures, such as function isolation, data privacy, and secure function chaining.</p>
       <h2>Key Challenges</h2>
       <ul>
@@ -90,10 +90,9 @@ function Team() {
   const teamMembers = [
     { name: 'Vivek', bio: 'Security researcher focused on serverless computing.', img: 'https://via.placeholder.com/150' },
     { name: 'Sowjanya', bio: 'Developer experienced in cloud security and serverless functions.', img: 'https://via.placeholder.com/150' },
-    { name: 'Sanjeeva', bio: 'Specializes in data privacy and encryption.', img: 'https://via.placeholder.com/150' },
+    { name: 'Pravarsha', bio: 'Specializes in data privacy and encryption.', img: 'https://via.placeholder.com/150' },
     { name: 'Sowmya', bio: 'Expert in serverless function optimization and performance.', img: 'https://via.placeholder.com/150' },
     { name: 'Sai Kumar', bio: 'Researcher focusing on secure serverless deployments.', img: 'https://via.placeholder.com/150' }
-  
   ];
 
   return (

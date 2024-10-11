@@ -1,57 +1,194 @@
-body {
-  font-family: Arial, sans-serif;
+/* General styles */
+body, html {
   margin: 0;
   padding: 0;
-  background-color: #f4f4f4;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  background: linear-gradient(to bottom, #d3d3d3, #a9a9a9); /* Light grey to dark grey gradient background */
 }
 
+* {
+  box-sizing: inherit;
+}
+
+.App {
+  text-align: center;
+}
+
+/* Navbar */
 nav {
-  background-color: #333;
-  padding: 1rem;
+  background-color: #2c3e50; /* Darker color for better contrast */
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
 }
 
 nav ul {
   list-style: none;
+  margin: 0;
+  padding: 1rem 0;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 20px;
 }
 
 nav ul li a {
-  color: white;
+  color: #000; /* Changed to black for better visibility */
   text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: 500;
+  padding: 0.5rem;
+  transition: color 0.3s;
 }
 
+nav ul li a:hover {
+  color: #f0a500; /* Highlight color on hover */
+}
+
+/* Watermark */
+.watermark {
+  position: absolute;
+  bottom: 10%;
+  right: 10%;
+  opacity: 0.1; /* Light opacity for subtle watermark */
+  font-size: 5rem; /* Large size for visibility */
+  color: #007991; /* Color matching the theme */
+  pointer-events: none; /* Ensure it doesn't interfere with clicking */
+}
+
+/* Sections */
 .section {
-  padding: 2rem;
-  background-color: white;
-  margin: 1rem;
-  border-radius: 10px;
+  padding: 80px 5%;
+  min-height: 100vh;
+  background: transparent; /* Set to transparent to show the body gradient */
 }
 
-#taxonomy table {
+#home {
+  background-color: transparent; /* Explicitly set to transparent to show the body gradient */
+  color: #333; /* Dark text for readability */
+}
+
+h1, h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+ul {
+  margin-top: 20px;
+  text-align: left;
+  list-style: none;
+  padding-left: 0;
+}
+
+ul li {
+  padding: 10px;
+  background: #ffffff; /* White background for better visibility */
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+  color: #333; /* Dark text to ensure readability */
+}
+
+/* Button Styling */
+button {
+  background-color: #007991;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.1rem;
+  transition: background-color 0.3s;
+  margin-top: 20px; /* Ensure some spacing from text above */
+}
+
+button:hover {
+  background-color: #005f72;
+}
+
+/* Table */
+table {
   width: 100%;
   border-collapse: collapse;
+  margin-top: 1rem;
 }
 
-#taxonomy th, td {
+table th, table td {
+  padding: 1rem;
   border: 1px solid #ddd;
-  padding: 8px;
+  text-align: left;
 }
 
-#team .team-grid {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
+table th {
+  background-color: #333;
+  color: white;
 }
 
-#team .team-member {
-  text-align: center;
-  margin: 1rem;
+table td {
+  background-color: #f9f9f9;
 }
 
-#team .team-member img {
+/* Team section */
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 2rem;
+  margin-top: 30px;
+}
+
+.team-member {
+  background-color: white;
+  border-radius: 15px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.team-member img {
+  width: 120px;
+  height: 120px;
   border-radius: 50%;
-  width: 150px;
-  height: 150px;
+  margin-bottom: 15px;
+  transition: transform 0.3s ease;
 }
- 
+
+.team-member:hover {
+  transform: translateY(-10px);
+}
+
+.team-member h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.team-member p {
+  font-size: 1rem;
+  color: #666;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+  .team-grid {
+    grid-template-columns: 1fr;
+  }
+
+  h1, h2 {
+    font-size: 2rem;
+  }
+}
