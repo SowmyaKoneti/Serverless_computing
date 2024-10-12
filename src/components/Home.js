@@ -4,20 +4,20 @@ import '../App.css';
 function Home() {
     const challenges = [
         {
-            title: 'Function Isolation',
-            description: 'Ensuring that serverless functions operate in isolated environments to prevent unintended interactions.'
+            title: 'Challenge 1',
+            description: 'Description'
         },
         {
-            title: 'Data Privacy',
-            description: 'Protecting sensitive data throughout the serverless computing lifecycle to comply with regulations.'
+            title: 'Challenge 2',
+            description: 'Description'
         },
         {
-            title: 'Secure Function Chaining',
-            description: 'Implementing secure communication and data transfer between chained serverless functions.'
+            title: 'Challenge 3',
+            description: 'Description'
         },
         {
-            title: 'Data Privacy',
-            description: 'Protecting sensitive data throughout the serverless computing lifecycle to comply with regulations.'
+            title: 'Challenge 4',
+            description: 'Description'
         },
 
     ];
@@ -26,7 +26,7 @@ function Home() {
         <section id="home" className="section">
             <div className="hero">
                 <h1 className="main-title">Security for Serverless Computing</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>Overview of the topic will be written here. This section will discuss key points related to security challenges and solutions in serverless computing.</p>
             </div>
             <h2 className='h2'>Key Challenges</h2>
             <div className="challenges-container">
@@ -45,7 +45,7 @@ function Home() {
             </div>
 
             <h2 className='recent-h2'> Recent Trends</h2>
-            <p className="recent-trends">Recent advancements include new frameworks designed to protect serverless applications from threats like code injection and privilege escalation.</p>
+            <p className="recent-trends">In this section, we will explore the latest advancements in securing serverless applications, highlighting trends such as frameworks for defending against threats like code injection and privilege escalation.</p>
         </section>
     );
 }

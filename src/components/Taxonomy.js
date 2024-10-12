@@ -15,18 +15,18 @@ function Taxonomy() {
                 <tbody>
                     <tr>
                         <td>Paper A</td>
-                        <td>Function Isolation</td>
-                        <td>Container Sandboxing</td>
+                        <td>Challenge</td>
+                        <td> Solution</td>
                     </tr>
                     <tr>
                         <td>Paper B</td>
-                        <td>Data Privacy</td>
-                        <td>Encryption & Auditing</td>
+                        <td>Challenge</td>
+                        <td> Solution</td>
                     </tr>
                     <tr>
                         <td>Paper C</td>
-                        <td>Privilege Escalation</td>
-                        <td>RBAC Policies</td>
+                        <td>Challenge</td>
+                        <td> Solution</td>
                     </tr>
                 </tbody>
             </table>
