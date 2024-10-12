@@ -3,11 +3,11 @@ import '../App.css';
 
 // Update the image paths to point to your local images
 const teamMembers = [
-    { name: 'Vivek', bio: 'Developer', img: require('../images/vivek.png'), linkedin: '#' },
-    { name: 'Sowjanya', bio: 'Content Validator', img: require('../images/Sowjanya.png'), linkedin: '#' },
-    { name: 'Pravarsha', bio: 'Reporting and Delivery Lead', img: require('../images/Pravarsha.png'), linkedin: '#' },
-    { name: 'Sowmya', bio: 'Developer', img: require('../images/Sowmya.png'), linkedin: '#' },
-    { name: 'Sai Kumar', bio: 'Content Validator', img: require('../images/SaiKumar.png'), linkedin: '#' }
+    { name: 'Vivek', bio: 'Masters degree in Computer Science from Saint Louis University', img: require('../images/vivek.png'), linkedin: '#' },
+    { name: 'Sowjanya', bio: 'Masters degree in Computer Science from Saint Louis University', img: require('../images/Sowjanya.png'), linkedin: '#' },
+    { name: 'Pravarsha', bio: 'Masters degree in Computer Science from Saint Louis University', img: require('../images/Pravarsha.png'), linkedin: '#' },
+    { name: 'Sowmya', bio: 'Masters degree in Computer Science from Saint Louis University', img: require('../images/Sowmya.png'), linkedin: '#' },
+    { name: 'Sai Kumar', bio: 'Masters degree in Computer Science from Saint Louis University', img: require('../images/SaiKumar.png'), linkedin: '#' }
 ];
 
 function Team() {
