@@ -2,7 +2,7 @@
   "name": "serverless-security",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://SowmyaKoneti.github.io/Serverless-security",
+  "homepage": "https://SowmyaKoneti.github.io/Serverless_security",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
