@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Serverless_security/static/css/main.119d9826.chunk.css",
-    "main.js": "/Serverless_security/static/js/main.291040cf.chunk.js",
-    "main.js.map": "/Serverless_security/static/js/main.291040cf.chunk.js.map",
+    "main.js": "/Serverless_security/static/js/main.758cce6a.chunk.js",
+    "main.js.map": "/Serverless_security/static/js/main.758cce6a.chunk.js.map",
     "runtime~main.js": "/Serverless_security/static/js/runtime~main.d626b7d5.js",
     "runtime~main.js.map": "/Serverless_security/static/js/runtime~main.d626b7d5.js.map",
     "static/js/2.afef58d2.chunk.js": "/Serverless_security/static/js/2.afef58d2.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.31c88699.chunk.js": "/Serverless_security/static/js/3.31c88699.chunk.js",
     "static/js/3.31c88699.chunk.js.map": "/Serverless_security/static/js/3.31c88699.chunk.js.map",
     "index.html": "/Serverless_security/index.html",
-    "precache-manifest.5d3524212e1796ff8aadc7067f3d8530.js": "/Serverless_security/precache-manifest.5d3524212e1796ff8aadc7067f3d8530.js",
+    "precache-manifest.f2c0a7c130c4700c6bd827e7648f87f8.js": "/Serverless_security/precache-manifest.f2c0a7c130c4700c6bd827e7648f87f8.js",
     "service-worker.js": "/Serverless_security/service-worker.js",
     "static/css/main.119d9826.chunk.css.map": "/Serverless_security/static/css/main.119d9826.chunk.css.map",
     "static/media/Pravarsha.png": "/Serverless_security/static/media/Pravarsha.3d775fa7.png",
