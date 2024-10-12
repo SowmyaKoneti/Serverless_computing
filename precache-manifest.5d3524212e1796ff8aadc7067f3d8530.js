@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7402d9c888bc03b7d93346bbcc3bcaa8",
+    "revision": "abfd300ccbce940fa7cd50d422d98822",
     "url": "/Serverless_security/index.html"
   },
   {
