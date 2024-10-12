@@ -1,12 +1,13 @@
 import React from 'react';
 import '../App.css';
 
+// Update the image paths to point to your local images
 const teamMembers = [
-    { name: 'Vivek', bio: 'Security researcher focused on serverless computing.', img: 'https://via.placeholder.com/150', linkedin: '#' },
-    { name: 'Sowjanya', bio: 'Developer experienced in cloud security and serverless functions.', img: 'https://via.placeholder.com/150', linkedin: '#' },
-    { name: 'Pravarsha', bio: 'Specializes in data privacy and encryption.', img: 'https://via.placeholder.com/150', linkedin: '#' },
-    { name: 'Sowmya', bio: 'Expert in serverless function optimization and performance.', img: 'https://via.placeholder.com/150', linkedin: '#' },
-    { name: 'Sai Kumar', bio: 'Researcher focusing on secure serverless deployments.', img: 'https://via.placeholder.com/150', linkedin: '#' }
+    { name: 'Vivek', bio: 'Developer', img: require('../images/vivek.png'), linkedin: '#' },
+    { name: 'Sowjanya', bio: 'Content Validator', img: require('../images/Sowjanya.png'), linkedin: '#' },
+    { name: 'Pravarsha', bio: 'Reporting and Delivery Lead', img: require('../images/Pravarsha.png'), linkedin: '#' },
+    { name: 'Sowmya', bio: 'Developer', img: require('../images/Sowmya.png'), linkedin: '#' },
+    { name: 'Sai Kumar', bio: 'Content Validator', img: require('../images/SaiKumar.png'), linkedin: '#' }
 ];
 
 function Team() {
