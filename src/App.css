@@ -89,14 +89,14 @@ nav ul li a:hover {
 }
 
 .main-title {
-  font-size: 6em;
+  font-size: 4.5em;
   font-weight: bold;
   margin-bottom: 20px;
   cursor: pointer;
 }
 
 p {
-  font-size: 1.25em;
+  font-size: 1em;
   margin: 40px 80px;
 }
 
@@ -194,6 +194,8 @@ p {
   text-align: center;
 }
 
+
+
 .content-section {
   padding: 30px 20px;
   color: #333;
@@ -209,9 +211,41 @@ p {
   color: #333;
 }
 
+.content-section ul {
+  list-style-type: none;
+  /* Remove default bullets */
+  padding: 0;
+  /* Remove default padding */
+  margin: 0 auto;
+  /* Center the list */
+  max-width: 900px;
+  /* Limit the width of the list */
+}
+
+.content-section li {
+  font-size: 1em;
+  /* Reduced font size for list items */
+  line-height: 1.6;
+  /* Adjusted line height for better spacing */
+  margin: 8px 0;
+  /* Space between list items */
+  padding: 5px 0;
+  /* Add padding for better spacing */
+  transition: color 0.3s;
+  /* Smooth transition for hover effect */
+}
+
+.content-section li:hover {
+  color: #007bff;
+  /* Change text color on hover */
+  cursor: pointer;
+  /* Change cursor to pointer */
+}
+
 .content-section p {
-  font-size: 1.2em;
-  line-height: 1.8;
+  font-size: 1.1em;
+  /* Slightly smaller font size for paragraphs */
+  line-height: 1.7;
   margin: 0 auto;
   max-width: 900px;
   color: #555;
@@ -219,9 +253,13 @@ p {
 }
 
 .content-section p::first-letter {
-  font-size: 1.5em;
+  font-size: 1.4em;
   font-weight: bold;
 }
+
+
+
+
 
 .tax-section {
   text-align: center;

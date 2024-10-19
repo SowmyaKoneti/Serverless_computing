@@ -10,12 +10,12 @@ function Taxonomy() {
                     <thead>
                         <tr>
                             <th>Paper Name</th>
-                            <th>Problem Domain</th>
-                            <th>Solution Approach</th>
-                            <th>Protocol Focus</th>
-                            <th>Evaluation Methodology</th>
-                            <th>Application Domain</th>
-                            <th>Key Findings</th>
+                            <th>Problem </th>
+                            <th>Solution </th>
+                            <th>Protocol Used</th>
+                            <th> Methodology</th>
+                            <th>Applications</th>
+                            <th> Findings</th>
                         </tr>
                     </thead>
                     <tbody>
