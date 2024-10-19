@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "caaaf0278445bb475274268e3b80d14e",
+    "revision": "058b1140da8c55a3d84a56b730cb5f62",
     "url": "/Serverless_security/index.html"
   },
   {
-    "revision": "1371a10b0c1d326e4158",
-    "url": "/Serverless_security/static/css/main.119d9826.chunk.css"
+    "revision": "1e6d4b961f4f550639a2",
+    "url": "/Serverless_security/static/css/main.3acc1905.chunk.css"
   },
   {
     "revision": "f18e9280047d2c2f67b5",
     "url": "/Serverless_security/static/js/2.afef58d2.chunk.js"
   },
   {
-    "revision": "0eb3ca9d0061837f6c8f",
-    "url": "/Serverless_security/static/js/3.31c88699.chunk.js"
+    "revision": "ba0bfa8f95d9766194b5",
+    "url": "/Serverless_security/static/js/3.7426b29a.chunk.js"
   },
   {
-    "revision": "1371a10b0c1d326e4158",
-    "url": "/Serverless_security/static/js/main.758cce6a.chunk.js"
+    "revision": "1e6d4b961f4f550639a2",
+    "url": "/Serverless_security/static/js/main.225af54a.chunk.js"
   },
   {
-    "revision": "dea63152ac75bd6e6d59",
-    "url": "/Serverless_security/static/js/runtime~main.d626b7d5.js"
+    "revision": "8438e1bb4a85c9e112a2",
+    "url": "/Serverless_security/static/js/runtime~main.9b530fb7.js"
   },
   {
     "revision": "3d775fa7983f91bd4e2f20f4c28ddc37",
