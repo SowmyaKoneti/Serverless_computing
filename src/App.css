@@ -258,9 +258,6 @@ p {
 }
 
 
-
-
-
 .tax-section {
   text-align: center;
   padding: 20px 20px;
@@ -286,14 +283,16 @@ table {
 
 th,
 td {
-  padding: 15px 20px;
-  text-align: left;
+  padding: 15px 25px;
+  text-align: center;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+
 }
 
 thead th {
   background-color: #bdabe3;
   color: white;
+  padding: 15px 15px;
   font-size: 1.1em;
 }
 
@@ -311,6 +310,7 @@ tbody tr:hover {
 
 tbody td {
   color: #333;
+  padding: 15px 15px;
 }
 
 table th,
