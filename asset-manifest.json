@@ -1,22 +1,29 @@
 {
   "files": {
     "main.css": "/Serverless_security/static/css/main.3acc1905.chunk.css",
-    "main.js": "/Serverless_security/static/js/main.225af54a.chunk.js",
-    "main.js.map": "/Serverless_security/static/js/main.225af54a.chunk.js.map",
-    "runtime~main.js": "/Serverless_security/static/js/runtime~main.9b530fb7.js",
-    "runtime~main.js.map": "/Serverless_security/static/js/runtime~main.9b530fb7.js.map",
-    "static/js/2.afef58d2.chunk.js": "/Serverless_security/static/js/2.afef58d2.chunk.js",
-    "static/js/2.afef58d2.chunk.js.map": "/Serverless_security/static/js/2.afef58d2.chunk.js.map",
-    "static/js/3.7426b29a.chunk.js": "/Serverless_security/static/js/3.7426b29a.chunk.js",
-    "static/js/3.7426b29a.chunk.js.map": "/Serverless_security/static/js/3.7426b29a.chunk.js.map",
+    "main.js": "/Serverless_security/static/js/main.318226f2.chunk.js",
+    "main.js.map": "/Serverless_security/static/js/main.318226f2.chunk.js.map",
+    "runtime-main.js": "/Serverless_security/static/js/runtime-main.39e47d23.js",
+    "runtime-main.js.map": "/Serverless_security/static/js/runtime-main.39e47d23.js.map",
+    "static/js/2.9e0eb093.chunk.js": "/Serverless_security/static/js/2.9e0eb093.chunk.js",
+    "static/js/2.9e0eb093.chunk.js.map": "/Serverless_security/static/js/2.9e0eb093.chunk.js.map",
+    "static/js/3.abad787f.chunk.js": "/Serverless_security/static/js/3.abad787f.chunk.js",
+    "static/js/3.abad787f.chunk.js.map": "/Serverless_security/static/js/3.abad787f.chunk.js.map",
     "index.html": "/Serverless_security/index.html",
-    "precache-manifest.899309dcefb15053af890218be6a896f.js": "/Serverless_security/precache-manifest.899309dcefb15053af890218be6a896f.js",
+    "precache-manifest.44cc27c49dcd2d4e42b97b848b855d69.js": "/Serverless_security/precache-manifest.44cc27c49dcd2d4e42b97b848b855d69.js",
     "service-worker.js": "/Serverless_security/service-worker.js",
     "static/css/main.3acc1905.chunk.css.map": "/Serverless_security/static/css/main.3acc1905.chunk.css.map",
+    "static/js/2.9e0eb093.chunk.js.LICENSE.txt": "/Serverless_security/static/js/2.9e0eb093.chunk.js.LICENSE.txt",
     "static/media/Pravarsha.png": "/Serverless_security/static/media/Pravarsha.3d775fa7.png",
     "static/media/SaiKumar.png": "/Serverless_security/static/media/SaiKumar.9f602f6e.png",
     "static/media/Sowjanya.png": "/Serverless_security/static/media/Sowjanya.2475e907.png",
     "static/media/Sowmya.png": "/Serverless_security/static/media/Sowmya.747f79b3.png",
     "static/media/vivek.png": "/Serverless_security/static/media/vivek.f18d7b1e.png"
-  }
+  },
+  "entrypoints": [
+    "static/js/runtime-main.39e47d23.js",
+    "static/js/2.9e0eb093.chunk.js",
+    "static/css/main.3acc1905.chunk.css",
+    "static/js/main.318226f2.chunk.js"
+  ]
 }
