@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3eb4b6d774c418cc3d2a6164e72279b4",
+    "revision": "a56c73789dcf5c5c8bf3aa41c1677e01",
     "url": "/Serverless_security/index.html"
   },
   {
-    "revision": "bf087ad5f2a177ca3de7",
-    "url": "/Serverless_security/static/css/main.3acc1905.chunk.css"
+    "revision": "1f92acf82327443f3802",
+    "url": "/Serverless_security/static/css/main.9caf0f1c.chunk.css"
   },
   {
     "revision": "c21b13a0d0be6b7b381f",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Serverless_security/static/js/3.abad787f.chunk.js"
   },
   {
-    "revision": "bf087ad5f2a177ca3de7",
-    "url": "/Serverless_security/static/js/main.318226f2.chunk.js"
+    "revision": "1f92acf82327443f3802",
+    "url": "/Serverless_security/static/js/main.fafda311.chunk.js"
   },
   {
     "revision": "67a9a86d4a274c5075a8",
