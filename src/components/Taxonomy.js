@@ -8,25 +8,157 @@ function Taxonomy() {
                 <thead>
                     <tr>
                         <th>Paper Title</th>
-                        <th>Security Challenge</th>
-                        <th>Proposed Solution</th>
+                        <th>Problem</th>
+                        <th>Solution</th>
+                        <th>Protocol Used</th>
+                        <th>Applications</th>
+                        <th>Strategy</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <td>Paper A</td>
-                        <td>Challenge</td>
-                        <td> Solution</td>
+                        <td>.</td>
+                        <td> .</td>
+                        <td>.</td>
+                        <td> .</td>
+                        <td>.</td>
+                        <td> .</td>
                     </tr>
                     <tr>
-                        <td>Paper B</td>
-                        <td>Challenge</td>
-                        <td> Solution</td>
+                        <td>.</td>
+                        <td> .</td>
+                        <td>.</td>
+                        <td> .</td>
+                        <td>.</td>
+                        <td> .</td>
                     </tr>
                     <tr>
-                        <td>Paper C</td>
-                        <td>Challenge</td>
-                        <td> Solution</td>
+                        <td>.</td>
+                        <td> .</td>
+                        <td>.</td>
+                        <td> .</td>
+                        <td>.</td>
+                        <td> .</td>
+                    </tr>
+                    <tr>
+                        <td>.</td>
+                        <td>.</td>
+                        <td> .</td>
+                        <td>.</td>
+                        <td> .</td>
+                        <td> .</td>
+                    </tr>
+                    <tr>
+                        <td>.</td>
+                        <td> .</td>
+                        <td>.</td>
+                        <td> .</td>
+                        <td>.</td>
+                        <td> .</td>
+                    </tr>
+                    <tr>
+                        <td>.</td>
+                        <td>.</td>
+                        <td> .</td>
+                        <td>.</td>
+                        <td> .</td>
+                        <td> .</td>
+                    </tr>
+                    <tr>
+                        <td>.</td>
+                        <td> .</td>
+                        <td>.</td>
+                        <td> .</td>
+                        <td>.</td>
+                        <td> .</td>
+                    </tr>
+                    <tr>
+                        <td>.</td>
+                        <td> .</td>
+                        <td>.</td>
+                        <td> .</td>
+                        <td>.</td>
+                        <td> .</td>
+                    </tr>
+                    <tr>
+                        <td>.</td>
+                        <td> .</td>
+                        <td>.</td>
+                        <td> .</td>
+                        <td>.</td>
+                        <td> .</td>
+                    </tr>
+                    <tr>
+                        <td>.</td>
+                        <td> .</td>
+                        <td>.</td>
+                        <td> .</td>
+                        <td>.</td>
+                        <td> .</td>
+                    </tr>
+                    <tr>
+                        <td>.</td>
+                        <td> .</td>
+                        <td>.</td>
+                        <td> .</td>
+                        <td>.</td>
+                        <td> .</td>
+                    </tr>
+                    <tr>
+                        <td>.</td>
+                        <td> .</td>
+                        <td>.</td>
+                        <td> .</td>
+                        <td>.</td>
+                        <td> .</td>
+                    </tr>
+                    <tr>
+                        <td>.</td>
+                        <td> .</td>
+                        <td>.</td>
+                        <td> .</td>
+                        <td>.</td>
+                        <td> .</td>
+                    </tr>
+                    <tr>
+                        <td>.</td>
+                        <td> .</td>
+                        <td>.</td>
+                        <td> .</td>
+                        <td>.</td>
+                        <td> .</td>
+                    </tr>
+                    <tr>
+                        <td>.</td>
+                        <td> .</td>
+                        <td>.</td>
+                        <td> .</td>
+                        <td>.</td>
+                        <td> .</td>
+                    </tr>
+                    <tr>
+                        <td>.</td>
+                        <td> .</td>
+                        <td>.</td>
+                        <td> .</td>
+                        <td>.</td>
+                        <td> .</td>
+                    </tr>
+                    <tr>
+                        <td>.</td>
+                        <td> .</td>
+                        <td>.</td>
+                        <td> .</td>
+                        <td>.</td>
+                        <td> .</td>
+                    </tr>
+                    <tr>
+                        <td>.</td>
+                        <td> .</td>
+                        <td>.</td>
+                        <td> .</td>
+                        <td>.</td>
+                        <td> .</td>
                     </tr>
                 </tbody>
             </table>
