@@ -10,7 +10,7 @@ import './App.css';
 function App() {
   return (
     <Router>
-      <div className="App">
+      < div className="App" >
         <NavBar />
         <Routes>
           {/* Redirect from the root path to the /home path */}
@@ -20,8 +20,8 @@ function App() {
           <Route path="/taxonomy" element={<Taxonomy />} />
           <Route path="/team" element={<Team />} />
         </Routes>
-      </div>
-    </Router>
+      </div >
+    </Router >
   );
 }
 
