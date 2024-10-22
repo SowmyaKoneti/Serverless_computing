@@ -1,29 +1,20 @@
 {
   "files": {
-    "main.css": "/Serverless_security/static/css/main.8da1d435.chunk.css",
-    "main.js": "/Serverless_security/static/js/main.6750f947.chunk.js",
-    "main.js.map": "/Serverless_security/static/js/main.6750f947.chunk.js.map",
-    "runtime-main.js": "/Serverless_security/static/js/runtime-main.dc658aac.js",
-    "runtime-main.js.map": "/Serverless_security/static/js/runtime-main.dc658aac.js.map",
-    "static/js/2.9e0eb093.chunk.js": "/Serverless_security/static/js/2.9e0eb093.chunk.js",
-    "static/js/2.9e0eb093.chunk.js.map": "/Serverless_security/static/js/2.9e0eb093.chunk.js.map",
-    "static/js/3.1a480919.chunk.js": "/Serverless_security/static/js/3.1a480919.chunk.js",
-    "static/js/3.1a480919.chunk.js.map": "/Serverless_security/static/js/3.1a480919.chunk.js.map",
+    "main.css": "/Serverless_security/static/css/main.54498444.css",
+    "main.js": "/Serverless_security/static/js/main.bc66e39b.js",
+    "static/js/845.2b0db668.chunk.js": "/Serverless_security/static/js/845.2b0db668.chunk.js",
+    "static/media/Sowjanya.png": "/Serverless_security/static/media/Sowjanya.9fe345e50ac910a9bc7a.png",
+    "static/media/Pravarsha.png": "/Serverless_security/static/media/Pravarsha.8cd5c948f47e61c8292f.png",
+    "static/media/vivek.png": "/Serverless_security/static/media/vivek.9964635f88d5a576f25b.png",
+    "static/media/Sowmya.png": "/Serverless_security/static/media/Sowmya.bb265c4e23ea060b0cc7.png",
+    "static/media/SaiKumar.png": "/Serverless_security/static/media/SaiKumar.69d87506550a0b50049e.png",
     "index.html": "/Serverless_security/index.html",
-    "precache-manifest.737cd930ff644d927a9a19afb4f0a4b6.js": "/Serverless_security/precache-manifest.737cd930ff644d927a9a19afb4f0a4b6.js",
-    "service-worker.js": "/Serverless_security/service-worker.js",
-    "static/css/main.8da1d435.chunk.css.map": "/Serverless_security/static/css/main.8da1d435.chunk.css.map",
-    "static/js/2.9e0eb093.chunk.js.LICENSE.txt": "/Serverless_security/static/js/2.9e0eb093.chunk.js.LICENSE.txt",
-    "static/media/Pravarsha.png": "/Serverless_security/static/media/Pravarsha.3d775fa7.png",
-    "static/media/SaiKumar.png": "/Serverless_security/static/media/SaiKumar.9f602f6e.png",
-    "static/media/Sowjanya.png": "/Serverless_security/static/media/Sowjanya.2475e907.png",
-    "static/media/Sowmya.png": "/Serverless_security/static/media/Sowmya.747f79b3.png",
-    "static/media/vivek.png": "/Serverless_security/static/media/vivek.f18d7b1e.png"
+    "main.54498444.css.map": "/Serverless_security/static/css/main.54498444.css.map",
+    "main.bc66e39b.js.map": "/Serverless_security/static/js/main.bc66e39b.js.map",
+    "845.2b0db668.chunk.js.map": "/Serverless_security/static/js/845.2b0db668.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.dc658aac.js",
-    "static/js/2.9e0eb093.chunk.js",
-    "static/css/main.8da1d435.chunk.css",
-    "static/js/main.6750f947.chunk.js"
+    "static/css/main.54498444.css",
+    "static/js/main.bc66e39b.js"
   ]
 }
