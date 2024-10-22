@@ -9,7 +9,7 @@ import './App.css';
 
 function App() {
   return (
-    <Router basename='Serverless_security'>
+    <Router>
       < div className="App" >
         <NavBar />
         <Routes>
