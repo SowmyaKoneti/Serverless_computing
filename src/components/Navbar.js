@@ -10,7 +10,7 @@ function NavBar() {
 
   return (
     <nav>
-      <Link to="/" className="home-link">Home</Link>
+      <Link to="/home" className="home-link">Home</Link>
       <div className="hamburger" onClick={toggleMenu}>
         <span></span>
         <span></span>
