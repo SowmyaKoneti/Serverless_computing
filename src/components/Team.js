@@ -3,11 +3,11 @@ import '../App.css';
 
 // Update the image paths to point to your local images
 const teamMembers = [
-    { name: 'Vivek', bio: 'Masters degree in Computer Science from Saint Louis University', img: require('../images/vivek.png'), linkedin: '#' },
-    { name: 'Sowjanya', bio: 'Masters degree in Computer Science from Saint Louis University', img: require('../images/Sowjanya.png'), linkedin: '#' },
-    { name: 'Pravarsha', bio: 'Masters degree in Computer Science from Saint Louis University', img: require('../images/Pravarsha.png'), linkedin: '#' },
-    { name: 'Sowmya', bio: 'Masters degree in Computer Science from Saint Louis University', img: require('../images/Sowmya.png'), linkedin: '#' },
-    { name: 'Sai Kumar', bio: 'Masters degree in Computer Science from Saint Louis University', img: require('../images/SaiKumar.png'), linkedin: '#' }
+    { name: 'Vivek', bio: 'Masters degree in Computer Science from Saint Louis University', role: 'Role: website developer', img: require('../images/vivek.png'), linkedin: '#' },
+    { name: 'Sowjanya', bio: 'Masters degree in Computer Science from Saint Louis University', role: 'Role: content validator', img: require('../images/Sowjanya.png'), linkedin: '#' },
+    { name: 'Pravarsha', bio: 'Masters degree in Computer Science from Saint Louis University', role: 'Role: reporting and delivery lead', img: require('../images/Pravarsha.png'), linkedin: '#' },
+    { name: 'Sowmya', bio: 'Masters degree in Computer Science from Saint Louis University', role: 'Role: website developer', img: require('../images/Sowmya.png'), linkedin: '#' },
+    { name: 'Sai Kumar', bio: 'Masters degree in Computer Science from Saint Louis University', role: 'Role: content validator', img: require('../images/SaiKumar.png'), linkedin: '#' }
 ];
 
 function Team() {
@@ -20,6 +20,7 @@ function Team() {
                         <img src={member.img} alt={member.name} />
                         <h3>{member.name}</h3>
                         <p className="team-description">{member.bio}</p>
+                        <p className="team-description">{member.role}</p>
                     </div>
                 ))}
             </div>
