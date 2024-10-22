@@ -1,13 +1,14 @@
 import React from 'react';
 import '../App.css';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 // Update the image paths to point to your local images
 const teamMembers = [
-    { name: 'Vivek', bio: 'Masters degree in Computer Science from Saint Louis University', role: 'Role: website developer', img: require('../images/vivek.png'), linkedin: '#' },
-    { name: 'Sowjanya', bio: 'Masters degree in Computer Science from Saint Louis University', role: 'Role: content validator', img: require('../images/Sowjanya.png'), linkedin: '#' },
-    { name: 'Pravarsha', bio: 'Masters degree in Computer Science from Saint Louis University', role: 'Role: reporting and delivery lead', img: require('../images/Pravarsha.png'), linkedin: '#' },
-    { name: 'Sowmya', bio: 'Masters degree in Computer Science from Saint Louis University', role: 'Role: website developer', img: require('../images/Sowmya.png'), linkedin: '#' },
-    { name: 'Sai Kumar', bio: 'Masters degree in Computer Science from Saint Louis University', role: 'Role: content validator', img: require('../images/SaiKumar.png'), linkedin: '#' }
+    { name: 'Vivek', bio: 'Masters degree in Computer Science from Saint Louis University', role: 'Role: website developer', contribution: 'worked on both website and survey paper', img: require('../images/vivek.png'), linkedin: 'https://www.linkedin.com/in/sai-vivek-kancharla/' },
+    { name: 'Sowjanya', bio: 'Masters degree in Computer Science from Saint Louis University', role: 'Role: content validator', contribution: 'worked on both website and survey paper', img: require('../images/Sowjanya.png'), linkedin: 'https://www.linkedin.com/in/kavuri-sowjanya-chowdary/' },
+    { name: 'Pravarsha', bio: 'Masters degree in Computer Science from Saint Louis University', role: 'Role: reporting and delivery lead', contribution: 'worked on both website and survey paper', img: require('../images/Pravarsha.png'), linkedin: 'https://www.linkedin.com/in/pravarsha-erodula-a86657167/' },
+    { name: 'Sowmya', bio: 'Masters degree in Computer Science from Saint Louis University', role: 'Role: website developer', contribution: 'worked on both website and survey paper', img: require('../images/Sowmya.png'), linkedin: 'https://www.linkedin.com/in/sowmya-koneti-138113152/' },
+    { name: 'Sai Kumar', bio: 'Masters degree in Computer Science from Saint Louis University', role: 'Role: content validator', contribution: 'worked on both website and survey paper', img: require('../images/SaiKumar.png'), linkedin: 'https://www.linkedin.com/in/saikumarkaluvakolu/' }
 ];
 
 function Team() {
@@ -21,6 +22,15 @@ function Team() {
                         <h3>{member.name}</h3>
                         <p className="team-description">{member.bio}</p>
                         <p className="team-description">{member.role}</p>
+                        <p className="team-description">{member.contribution}</p>
+                        <a
+                            href={member.linkedin}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="linkedin-link"
+                        >
+                            <LinkedInIcon style={{ fontSize: 30, color: '#0077b5' }} />
+                        </a>
                     </div>
                 ))}
             </div>

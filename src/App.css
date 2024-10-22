@@ -460,6 +460,17 @@ table td:last-child {
   margin-top: 30px;
 }
 
+.linkedin-link {
+  display: inline-block;
+  margin-top: 10px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.linkedin-link:hover {
+  transform: scale(1.1);
+}
+
+
 @media (max-width: 768px) {
   .App {
     padding: 10px;
