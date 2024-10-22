@@ -10,7 +10,6 @@ body {
   color: #333;
   line-height: 1.6;
   padding: 20px;
-  cursor: none;
 }
 
 .App {
@@ -27,23 +26,7 @@ body {
   box-sizing: border-box;
 }
 
-.custom-cursor {
-  width: 20px;
-  height: 20px;
-  background: #ad79c3;
-  border: 2px solid #ad79c3;
-  border-radius: 50%;
-  position: fixed;
-  pointer-events: none;
-  z-index: 9999;
-  transition: all 0.1s ease;
-  transform: translate(-50%, -50%);
-}
 
-.custom-cursor.hover {
-  transform: translate(-50%, -50%) scale(1.5);
-  background: rgba(173, 121, 195, 0.5);
-}
 
 nav {
   background: linear-gradient(to right, #d3c3e2, #ad79c3);
