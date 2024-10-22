@@ -20,26 +20,41 @@ body {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 nav {
   background: linear-gradient(to right, #d3c3e2, #ad79c3);
-  padding: 30px 0;
+  padding: 30px 20px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   height: 60px;
+  position: relative;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.home-link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.3em;
 }
 
 nav ul {
   display: flex;
   justify-content: center;
+  align-items: center;
   list-style: none;
   padding: 0;
   margin: 0;
+  flex-wrap: wrap;
 }
 
 nav ul li {
-  margin: 0 20px;
+  margin: 0 10px;
 }
 
 nav ul li a {
@@ -73,8 +88,89 @@ nav ul li a:hover::before {
   transform-origin: left;
 }
 
-nav ul li a:hover {
-  text-shadow: 3px 3px 12px rgba(0, 0, 0, 0.3);
+.hamburger {
+  display: none;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 24px;
+  width: 30px;
+  cursor: pointer;
+}
+
+.hamburger span {
+  height: 3px;
+  width: 100%;
+  background-color: white;
+  transition: 0.4s;
+}
+
+.open {
+  display: flex !important;
+}
+
+@media (max-width: 768px) {
+  nav {
+    padding: 20px;
+    height: auto;
+    background: linear-gradient(to right, #d3c3e2, #ad79c3);
+  }
+
+  .hamburger {
+    display: flex;
+  }
+
+  nav ul {
+    flex-direction: column;
+    width: 100%;
+    display: none;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    background: linear-gradient(to right, #d3c3e2, #ad79c3);
+    padding: 20px 0;
+  }
+
+  nav ul li {
+    margin: 10px 0;
+    width: 100%;
+    text-align: center;
+  }
+
+  nav ul li a {
+    font-size: 1.1em;
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+  }
+
+  .home-link {
+    font-size: 1.2em;
+  }
+
+  .hamburger {
+    position: absolute;
+    right: 20px;
+    top: 18px;
+    z-index: 1;
+  }
+}
+
+@media (max-width: 480px) {
+  nav {
+    padding: 15px 0;
+  }
+
+  nav ul {
+    padding: 0 10px;
+  }
+
+  nav ul li {
+    margin: 8px 0;
+  }
+
+  nav ul li a {
+    font-size: 1em;
+  }
 }
 
 .section {
@@ -195,13 +291,16 @@ p {
 }
 
 
-
 .content-section {
-  padding: 30px 20px;
+  padding: 30px 40px;
+  /* Increased padding */
   color: #333;
-  text-align: center;
+  text-align: left;
+  /* Align text to the left */
   border-radius: 10px;
-  margin: 30px 0;
+  margin: 30px auto;
+  max-width: 800px;
+  /* Limit the width of the entire content section */
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -209,45 +308,37 @@ p {
   font-size: 2.5em;
   margin-bottom: 20px;
   color: #333;
+  text-align: center;
+  /* Keep the heading centered */
 }
 
-.content-section ul {
-  list-style-type: none;
-  /* Remove default bullets */
-  padding: 0;
-  /* Remove default padding */
+.content-section ol {
+  padding-left: 20px;
+  /* Adjust left padding for numbering */
   margin: 0 auto;
-  /* Center the list */
-  max-width: 900px;
+  max-width: 750px;
   /* Limit the width of the list */
 }
 
 .content-section li {
   font-size: 1em;
-  /* Reduced font size for list items */
   line-height: 1.6;
-  /* Adjusted line height for better spacing */
   margin: 8px 0;
-  /* Space between list items */
   padding: 5px 0;
-  /* Add padding for better spacing */
   transition: color 0.3s;
-  /* Smooth transition for hover effect */
 }
 
 .content-section li:hover {
   color: #007bff;
-  /* Change text color on hover */
   cursor: pointer;
-  /* Change cursor to pointer */
 }
 
 .content-section p {
   font-size: 1.1em;
-  /* Slightly smaller font size for paragraphs */
   line-height: 1.7;
   margin: 0 auto;
-  max-width: 900px;
+  max-width: 750px;
+  /* Ensure paragraphs are also limited in width */
   color: #555;
   padding: 0 20px;
 }
@@ -256,6 +347,7 @@ p {
   font-size: 1.4em;
   font-weight: bold;
 }
+
 
 
 .tax-section {

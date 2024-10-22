@@ -5,19 +5,27 @@ function Home() {
     const challenges = [
         {
             title: 'Data Privacy',
-            description: 'Implement automated threat detection systems to monitor and manage security risks dynamically.'
+            description: 'Sensitive data processed across third-party services in distributed serverless environments can lead to privacy risks'
         },
         {
             title: 'Function Isolation',
-            description: 'Employ technologies like MicroVMs and Unikernels for better function isolation in FaaS applications.'
+            description: 'Serverless platforms are multi-tenant environments, which increases the risk of resource contention and data leakage'
         },
         {
-            title: 'Securing Function Chaining',
-            description: 'Utilize Attack Tree and Attack-Defense Tree methodologies, combined with a Relative Risk Matrix, to quantify and analyze security risks associated with function chaining.'
+            title: 'Privilege Escalation',
+            description: ' Functions granted more permissions than necessary pose risks of unauthorized access to sensitive data'
         },
         {
             title: 'Cold Starts',
-            description: 'Use sandbox pooling and lightweight VM technologies like Firecracker to reduce cold start delays.'
+            description: 'Serverless functions may experience delays during startup when invoked after a period of inactivity, leading to performance bottlenecks'
+        },
+        {
+            title: 'Code Injection Attacks',
+            description: 'Malicious code injection in serverless functions can lead to unauthorized actions and data breaches'
+        },
+        {
+            title: 'Denial of Service (DoS) and DDoS',
+            description: 'Serverless platforms auto-scaling feature can be exploited, causing resource exhaustion and increased operational costs'
         },
 
     ];

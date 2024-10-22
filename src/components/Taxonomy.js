@@ -1,5 +1,4 @@
 import React from 'react';
-import './Taxonomy.css';  // Assuming you create a CSS file for styling
 
 function Taxonomy() {
     return (
@@ -9,60 +8,60 @@ function Taxonomy() {
                 <table>
                     <thead>
                         <tr>
-                            <th>Paper Name</th>
-                            <th>Problem </th>
-                            <th>Solution </th>
-                            <th>Protocol Used</th>
-                            <th> Methodology</th>
-                            <th>Applications</th>
-
+                            <th>Topic</th>
+                            <th>Papers</th>
+                            <th>Key Papers</th>
+                            <th>Problem Domain</th>
+                            <th>Solution Approach</th>
+                            <th>Methodology</th>
+                            <th>Impact</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td><strong>Survey on Serverless Computing</strong></td>
-                            <td>Explores the current state of serverless computing technologies, identifying benefits, limitations, and adoption trends.</td>
-                            <td>Conducts a comprehensive survey of serverless models, benefits, and challenges.</td>
-                            <td>Function-as-a-Service (FaaS) and Backend-as-a-Service (BaaS).</td>
-                            <td>Performs a comparative analysis of performance, scalability, and cost-effectiveness.</td>
-                            <td>Applicable to cloud-based services in e-commerce, finance, and various industries.</td>
-                            {/* <td>Scalability and cost benefits, but introduces latency and security challenges.</td> */}
+                            <td><strong>Serverless Computing Surveys & Overviews</strong></td>
+                            <td>1, 13, 19, 5</td>
+                            <td>Survey on Serverless Computing, The Serverless Computing Survey: A Technical Primer for Design</td>
+                            <td>General overview of serverless computing, architecture trends, and challenges</td>
+                            <td>Provide a survey of existing architectures, challenges, and trends</td>
+                            <td>Systematic review of literature, case study analysis</td>
+                            <td>Comprehensive understanding of the current landscape of serverless computing; establishes baseline knowledge for further research</td>
                         </tr>
                         <tr>
-                            <td><strong>Serverless Computing: A Security Perspective</strong></td>
-                            <td>Investigates the critical security challenges faced in serverless platforms and their inherent risks.</td>
-                            <td>Proposes a robust multi-layered security framework designed specifically for addressing serverless platform vulnerabilities.</td>
-                            <td>Primarily focuses on securing Function-as-a-Service (FaaS) environments.</td>
-                            <td>Conducts a thorough vulnerability analysis and a detailed comparison of existing security controls.</td>
-                            <td>Targets cloud services that require heightened security measures, particularly in sectors like finance and healthcare.</td>
-                            {/* <td>Identifies insufficient security controls within serverless environments; recommends implementing encryption, IAM, and secure execution environments to mitigate risks.</td> */}
+                            <td><strong>Security in Serverless Computing</strong></td>
+                            <td>2, 3, 14, 15, 22, 12</td>
+                            <td>Serverless Computing: A Security Perspective, Securing Serverless Computing: Challenges, Solutions, and Opportunities, Secure Serverless Computing Using Dynamic Information Flow Control</td>
+                            <td>Security challenges in serverless environments (e.g., network, privacy)</td>
+                            <td>Propose frameworks and solutions to secure serverless architectures</td>
+                            <td>Propose and analyze security frameworks, evaluate privacy mechanisms</td>
+                            <td>Contributes to securing serverless platforms, improves privacy, and establishes security frameworks for practical implementation</td>
                         </tr>
                         <tr>
-                            <td><strong>Securing Serverless Computing: Challenges, Solutions, and Opportunities</strong></td>
-                            <td>Examines the unique security risks associated with serverless computing in dynamic, scalable environments.</td>
-                            <td>Proposes advanced techniques for privacy preservation and effective attack detection to address security concerns.</td>
-                            <td>Focuses on both Function-as-a-Service (FaaS) and Backend-as-a-Service (BaaS) security mechanisms.</td>
-                            <td>Conducts a comprehensive risk assessment and evaluates the effectiveness of various performance-security trade-offs.</td>
-                            <td>Specifically applicable to high-security sectors such as finance, healthcare, and government services that are adopting serverless architectures.</td>
-                            {/* <td>Highlights the necessity for real-time threat detection mechanisms to effectively mitigate risks like DoS attacks and data leakage between tenants.</td> */}
+                            <td><strong>Serverless Computing Use Cases</strong></td>
+                            <td>4, 11, 18</td>
+                            <td>Serverless Computing: Advantages, Limitations, and Use Cases, A Review of Serverless Use Cases and their Characteristics</td>
+                            <td>Practical use cases in serverless computing, including security</td>
+                            <td>Highlight and analyze real-world implementations</td>
+                            <td>Case study analysis of existing use cases</td>
+                            <td>Helps enterprises and developers adopt serverless computing with a focus on practical, secure use cases</td>
                         </tr>
                         <tr>
-                            <td><strong>Serverless Computing: Advantages, Limitations, and Use Cases</strong></td>
-                            <td>Analyzes the trade-offs between the advantages and limitations of adopting serverless computing models.</td>
-                            <td>Provides detailed case studies that analyze the performance and outcomes of various serverless applications.</td>
-                            <td>Primarily focuses on Function-as-a-Service (FaaS) and its operational impacts.</td>
-                            <td>Conducts performance and cost analysis based on real-world examples to highlight practical implications.</td>
-                            <td>Applies to a wide range of cloud applications, including web applications, Internet of Things (IoT) services, and event-driven workflows.</td>
-                            {/* <td>Demonstrates that serverless computing provides significant cost savings and operational management ease, but also reveals challenges such as cold start latency and potential vendor lock-in.</td> */}
+                            <td><strong>Serverless Computing for IoT and Specific Applications</strong></td>
+                            <td>9, 21, 10</td>
+                            <td>Serverless Computing for Internet of Things: A Systematic Literature Review, A Transparent Auto-Scaling Cache for Serverless Applications</td>
+                            <td>Serverless computing applications in IoT, auto-scaling</td>
+                            <td>Propose architectures for auto-scaling and securing IoT applications</td>
+                            <td>Use of simulation environments, benchmarking tools</td>
+                            <td>Enhances scalability and security in IoT environments, making serverless more practical for specific applications</td>
                         </tr>
                         <tr>
-                            <td><strong>Innovative Approaches to Serverless Computing: A Novel Architecture Perspective</strong></td>
-                            <td>Addresses significant scalability and performance issues prevalent in traditional serverless architectures.</td>
-                            <td>Proposes an innovative new architecture specifically designed to enhance scalability and reduce latency for serverless applications.</td>
-                            <td>Primarily focuses on Function-as-a-Service (FaaS) while proposing improvements to current serverless designs.</td>
-                            <td>Utilizes performance benchmarks and simulation models to effectively demonstrate improvements offered by the new architecture.</td>
-                            <td>Specifically targeted at high-performance cloud applications requiring low-latency and high-throughput capabilities.</td>
-                            {/* <td>Shows that the proposed architecture can provide substantial scalability and performance enhancements, but it also adds complexity to resource management and deployment processes.</td> */}
+                            <td><strong>Serverless Architecture & Performance Optimization</strong></td>
+                            <td>16, 20, 17</td>
+                            <td>Faster and Cheaper Serverless Computing on Harvested Resources</td>
+                            <td>Optimizing serverless architectures for performance and cost</td>
+                            <td>Propose performance enhancements (e.g., caching, resource management)</td>
+                            <td>Experimental evaluations, performance benchmarking</td>
+                            <td>Advances in performance and cost-efficiency in serverless computing, offering pathways for more sustainable, efficient architectures</td>
                         </tr>
                     </tbody>
                 </table>

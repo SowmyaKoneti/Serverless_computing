@@ -9,13 +9,13 @@ function NavBar() {
 
   return (
     <nav>
+      <a href="#home" className="home-link">Home</a>
       <div className="hamburger" onClick={toggleMenu}>
         <span></span>
         <span></span>
         <span></span>
       </div>
       <ul className={isOpen ? "open" : ""}>
-        <li><a href="#home" className="home-link">Home</a></li>
         <li><a href="#content">Findings</a></li>
         <li><a href="#taxonomy">Taxonomy</a></li>
         <li><a href="#team">Team</a></li>

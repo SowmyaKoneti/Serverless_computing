@@ -6,15 +6,17 @@ function Content() {
         <section id="content" className="content-section">
             <h2 className='taxh2'>Findings</h2>
             <ul>
-                <li>Scalability and cost benefits, but introduces latency and security challenges.</li>
-                <li>Identifies insufficient security controls within serverless environments; recommends implementing encryption, IAM, and secure execution environments to mitigate risks.</li>
-                <li>Highlights the necessity for real-time threat detection mechanisms to effectively mitigate risks like DoS attacks and data leakage between tenants.</li>
-                <li>Demonstrates that serverless computing provides significant cost savings and operational management ease, but also reveals challenges such as cold start latency and potential vendor lock-in.</li>
-                <li>Shows that the proposed architecture can provide substantial scalability and performance enhancements, but it also adds complexity to resource management and deployment processes.</li>
-                <li>Serverless computing enhances resource allocation efficiency, reducing over-provisioning costs in traditional cloud models.</li>
-                <li>Serverless computing can offer high scalability and cost-efficiency, but key challenges such as cold start issues, resource constraints, and security vulnerabilities need further research and optimization.</li>
-                <li>There is a growing need for better monitoring tools to track security incidents in serverless environments.</li>
-                <li>The use of Attack-Defense Tree methodologies enhances security planning by providing a structured approach to identify vulnerabilities.</li>
+                <li>Pre-warming functions and caching strategies can reduce the impact of cold start latency.</li>
+                <li>Intelligent resource allocation and load balancing can minimize the startup time of serverless functions during idle periodsurity Frameworks for Privilege Managemen</li>
+                <li>Implementing multi-layered security frameworks with strong identity and access management (IAM) systems and fine-grained privilege control helps mitigate the risks of privilege escalation</li>
+                <li>Using runtime isolation techniques ensures that functions operate securely even in multi-tenant environments</li>
+                <li>Implement dynamic information flow control (DIFC) to monitor and control data flow, preventing unauthorized access to sensitive information</li>
+                <li>Adopt rate limiting and other protective measures to prevent Denial-of-Service (DoS) attacks on serverless APIs.</li>
+                <li>Caching necessary resources or implementing "just-in-time" preparation for functions can prevent attackers from exploiting vulnerabilities during the startup phase.</li>
+                <li>For data flow security, strong encryption should be used for data both in transit and at rest, with dynamic information flow control (DIFC) employed to monitor and control data flow, ensuring that unauthorized access to sensitive data is prevented</li>
+                <li>API security can be enhanced by securing exposed APIs through strong authentication mechanisms, such as OAuth or API keys, and by implementing protective measures like rate limiting to prevent DoS attacks</li>
+                <li> End-to-end encryption and data integrity checks throughout the workflow are also necessary to prevent cascading security failures</li>
+                <li>Strong identity and access management (IAM) policies should be implemented to ensure that data and function executions are isolated across different tenants</li>
             </ul>
         </section>
 
