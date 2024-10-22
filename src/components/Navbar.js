@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-
+import HomeIcon from '@mui/icons-material/Home';
 function NavBar() {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -10,7 +10,9 @@ function NavBar() {
 
   return (
     <nav>
-      <Link to="/home" className="home-link">Home</Link>
+      <Link to="/home" className="home-link">
+        <HomeIcon />
+      </Link>
       <div className="hamburger" onClick={toggleMenu}>
         <span></span>
         <span></span>

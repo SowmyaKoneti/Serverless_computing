@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import '../App.css';
 
 function Home() {
@@ -30,6 +30,26 @@ function Home() {
 
     ];
 
+    const ChallengeCard = ({ title, description }) => {
+        const [isFlipped, setIsFlipped] = useState(false);
+
+        const handleClick = () => {
+            setIsFlipped(!isFlipped);
+        };
+        return (
+            <div className="challenge-card" onClick={handleClick}>
+                <div className={`card-inner ${isFlipped ? 'flipped' : ''}`}>
+                    <div className="card-front">
+                        <h2>{title}</h2>
+                    </div>
+                    <div className="card-back">
+                        <p>{description}</p>
+                    </div>
+                </div>
+            </div>
+        );
+    };
+
     return (
         <section id="home" className="section">
             <div className="hero">
@@ -49,16 +69,11 @@ function Home() {
             <h2 className='h2'>Key Challenges</h2>
             <div className="challenges-container">
                 {challenges.map((challenge, index) => (
-                    <div key={index} className="challenge-card">
-                        <div className="card-inner">
-                            <div className="card-front">
-                                <h2>{challenge.title}</h2>
-                            </div>
-                            <div className="card-back">
-                                <p>{challenge.description}</p>
-                            </div>
-                        </div>
-                    </div>
+                    <ChallengeCard
+                        key={index}
+                        title={challenge.title}
+                        description={challenge.description}
+                    />
                 ))}
             </div>
 
